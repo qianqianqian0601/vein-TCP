@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:D:\WorkSpace\Vein\src\main\DB\myDB
+    username: root
+    password: root
+
+server:
+  port: 0 #随机端口
